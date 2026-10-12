@@ -2,6 +2,10 @@
 
 A framework for keeping product information consistent across **Amazon, Walmart, Shopify, eBay, and other sales channels**.
 
+## Included Files
+- [Channel Matrix](channel_matrix.csv)
+- [Operating SOP](operating_sop.md)
+
 ## Core Goals
 - Maintain one source-of-truth SKU
 - Keep marketplace-specific titles and attributes organized
@@ -10,9 +14,9 @@ A framework for keeping product information consistent across **Amazon, Walmart,
 - Improve QA before bulk updates
 - Verify live data after processing
 
-## Operating SOP
+## Operating Model
 1. Maintain a clean master catalog.
-2. Store channel-specific fields separately.
+2. Store marketplace-specific fields separately.
 3. Log bulk changes before upload.
 4. Test high-risk catalog changes on a small subset.
 5. Verify live content after processing.
